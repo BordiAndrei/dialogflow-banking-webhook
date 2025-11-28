@@ -54,23 +54,3 @@ app.post('/', (req, res) => {
 app.listen(3000, () => {
   console.log('Serverul a pornit cu succes! Aștept comenzi...');
 });
-
-Acesta este codul tău Node.js 
-
-Fișier 2: package.json
-Crează un fișier nou numit package.json și pune în el: 
-JSON
-{
-  "name": "bancar-webhook",
-  "version": "1.0.0",
-  "description": "Webhook for Dialogflow ES banking bot.",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "body-parser": "^1.20.2"
-  }
-}
-
